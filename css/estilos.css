@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#logo{
+    width: 200px;
+    height: 100px;
+    /*border:1px solid white;*/
+    float: left;
+}
+
+
+body{
+    background: linear-gradient(-45deg, #ee7752, #23A6D5, #23D5AB);
+    color: black;
+}
+
+#contenedor{
+    width: 1260px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.slider{
+    width: 95%;
+    margin:auto;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    padding:0;
+    width: 400%;
+
+    animation: cambio 5s infinite alternate linear;
+}
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+.slider img {
+    width: 100%;
+}
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100;}
+    45% {margin-left: -100;}
+
+    50% {margin-left: -200;}
+    70% {margin-left: -200;}
+
+    75% {margin-left: -300;}
+    100% {margin-left: -300;}
+}
+
+header{
+    height: 170px;
+    background: rgb(29, 119, 179);
+}
+header h1{
+    font-size: 50px;
+    text-align: center;
+    line-height: 150px;
+}
+
+nav{
+   /* background: yellowgreen;*/
+    height: 60px;
+    
+}
+.menu{
+    width: 600px;
+    height: 40px;
+    /*border:1px solid white;*/
+    float: left;
+    margin-top: 40px;
+   
+    /*background-color: white;*/
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 15px 13px;
+    
+   /* border: 1px solid rgb(211, 117, 35);*/
+}
+
+nav h2{
+    font-size: 40px;
+    text-align: center;
+    line-height: 60px;
+}
+#contenido{
+    
+ 
+    font-family:monospace;
+    font-size:16px;
+    
+             
+    width:1000px;
+    height: 500px;
+    float: left;
+    background: rgb(216, 178, 73);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.addr {
+    width:30px;
+    }   
+.resultado {
+        border-bottom: 1px solid #000000;
+        border-right: 1px solid #8f4601;
+        }
+        .resultado .label {
+        display:inline-block;
+        width:200px;
+        background:rgb(94, 206, 118);
+        }
+
+#contenido h2{
+    font-size: 40px;
+    text-align: center;
+    line-height: 500px;
+}
+#redes{
+    width:700px;
+    height: 100px;
+    float: left;
+    /*background:blue;*/
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.sociales{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.sociales li{
+    display: inline;
+}
+aside{
+    width: 250px;
+    height: 500px;
+    background: rgb(189, 103, 4);
+    margin-top: 10px;
+    float: right;
+}
+
+
+.boton {
+    width: 240px;
+    height: 39px;
+    cursor: pointer;
+    border:4px solid #f2f2f2;;
+    transition:background-color 1s; 
+   }
+.boton:hover {
+    background-color: #23D5AB;
+}
+.boton p {
+   
+    text-align: center;
+    font-size: 1em; font-weight:bold;color: antiquewhite;
+    line-height: 1.6em;
+}
+
+
+aside h2{
+    font-size: 40px;
+    text-align: center;
+    line-height: 500px;
+}
+footer{
+    background: rgb(0, 138, 180);
+    clear: both;
+}
+footer h2{
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+}
+footer h5{
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+}
+
